@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Código de Barra</title>
+        <link rel="shortcut icon" href="img/barcode.png" type="image/x-icon">
+        <script type="text/javascript" src="JsBarCode.all.min.js"></script>
+        <script defer src="app.js"></script>
+    </head>
+<body>
+    <section>
+        <h2>Código de barra</h2>
+
+        <div class="content">
+            <input type="text" name="valorInput" id="valorInput" placeholder="Digite um texto...">
+            <button id="botaoCode">Gerar</button>
+        </div>
+
+        <div class="codigo">
+            <svg id="codeBarra"></svg>
+        </div>
+    </section>
+</body>
+</html>
